@@ -1,0 +1,70 @@
+#fieldset1 {
+	margin: 0 auto;
+	width: 700px;
+}
+
+#tb1{
+	margin: 0 auto;
+	width: 400px;
+}
+
+.button {
+    padding-left: 170px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+#p1 {
+	margin: 0 150px;
+}
+
+#fieldset2 {
+    width: 300px;
+    border: 0;
+}
+
+#p2 {
+	margin: 10px 10px 200px; 
+	width: 270px;
+}
+
+#fieldset3{
+	margin: 0 auto;
+	width: 700px;
+}
+
+#p3{ 
+	margin: 0 10px;
+	font-size: 12px;
+}
+
+#p4{
+	margin: 0 0 0 300px;
+}
+
+form {
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 0;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+input {
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 150px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
