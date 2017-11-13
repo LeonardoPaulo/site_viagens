@@ -4,14 +4,17 @@
     <meta http-equiv="content-type" content="text/html, charset=utf-8" />
     <title>Cadastro de viagens</title>
     <link href="estilos/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
   </head>
 
   <body>
     <fieldset id="fieldset1">
- 		 <table cellpadding="10">
+ 		 <table>
  			<tr>
  			  <td>
- 					<p>NOMADIC</p>
+ 					<p id="p5">NOMADIC</p>
  				</td>
  				<td align="left">
  					<p id="p1">Come live the world with us!!!</p>
@@ -25,8 +28,8 @@
 		<td>
       <form action="checks_data.php" method="POST">
         <fieldset>
-          <table cellspacing="10" id="tb1">
- 	          <p >Create your next travel: </p>
+          <table  id="tb1">
+ 	          <p id="p6">Create your next travel: </p>
             <div>
               <label for="name">Name: </label>
               <input type="text" name="name" required />
@@ -71,7 +74,7 @@
     </td>
     <td align="left">
       <fieldset id="fieldset2">
-	     <p id="p2" style="text-align: justify;"><br><br><b>About NOMADIC</b><br><br>
+	     <p id="p2" style="text-align: justify;"><br><br><br><br><b>About NOMADIC</b><br><br>
 	     Nomadic is a young company that delivers quality experiences to its customers. We are dynamic and always willing to help. Enjoy your trip with no worries, we take care of everything. We have several plans, from economic to first class. Find your perfect trip and count on us to make this experience unforgettable!!!</p>
       </fieldset>
     </td>
@@ -89,6 +92,7 @@
         </tr>
       </table>
     </fieldset>
+    <background="imagens/fundo.jpg" bgproperties="fixed">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </body>
 </html>

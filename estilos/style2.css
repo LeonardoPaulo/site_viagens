@@ -5,12 +5,17 @@
 
 #p1 {
 	margin: 0 150px;
+	color: #008B8B;
+ 	font-family: 'Lobster', cursive;
+ 	font-size: 20px;
 }
 
 #fieldset2{
 	margin: auto;
 	width: 300px;
-	border-radius: 10px
+	border-radius: 10px;
+	color: #2F4F4F;
+	font-family: 'Encode Sans Expanded', sans-serif;
 }
 
 #p2{
@@ -29,4 +34,12 @@
 
 #p4{
 	margin: 0 0 0 150px;
+	color: #008B8B;
+}
+
+#p5 {
+    color: #008B8B;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 20px;
+    margin-left: 15px;
 }

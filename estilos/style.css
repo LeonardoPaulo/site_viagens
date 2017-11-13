@@ -1,15 +1,17 @@
 #fieldset1 {
 	margin: 0 auto;
 	width: 700px;
+    margin-bottom: -1.5cm;
 }
 
 #tb1{
 	margin: 0 auto;
+    margin-top: 1px;
 	width: 400px;
 }
 
 .button {
-    padding-left: 170px;
+    padding-left: 170px;            
 }
 
 button {
@@ -18,9 +20,13 @@ button {
 
 #p1 {
 	margin: 0 150px;
+    color: #008B8B;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
 }
 
 #fieldset2 {
+    margin-top: auto;
     width: 300px;
     border: 0;
 }
@@ -28,11 +34,14 @@ button {
 #p2 {
 	margin: 10px 10px 200px; 
 	width: 270px;
+    color: #2F4F4F;
+    font-family: 'Encode Sans Expanded', sans-serif;
 }
 
 #fieldset3{
 	margin: 0 auto;
 	width: 700px;
+    margin-top: -1.5cm;
 }
 
 #p3{ 
@@ -42,13 +51,13 @@ button {
 
 #p4{
 	margin: 0 0 0 300px;
+    color: #008B8B;
 }
 
 form {
     width: 400px;
     /* Para ver as bordas do formulário */
     padding: 1em;
-    border: 0;
 }
 
 label {
@@ -56,6 +65,8 @@ label {
     display: inline-block;
     width: 200px;
     text-align: left;
+    color: #2F4F4F;
+    font-family: 'Encode Sans Expanded', sans-serif;
 }
 
 input {
@@ -67,4 +78,16 @@ input {
 
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
+}
+
+#p5 {
+    margin-left: 15px;
+    color: #008B8B;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 20px;
+}
+
+#p6 {
+    color: #2F4F4F;
+    font-family: 'Encode Sans Expanded', sans-serif;
 }
